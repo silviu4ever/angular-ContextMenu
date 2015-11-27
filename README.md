@@ -14,6 +14,10 @@ By 'complete' I mean I want a context menu directive that could do the following
 - I can set a specific option disabled
 - Context menu should be rendered above the mouse if right clicking items from bottom of the page
 
+## jsfiddle example
+Note that if you have the corrent src for images, images will be displayed in fron of the each option (in the fiddle example I have local src's, wich won't work).
+Also for some reason checkboxes are displayed as texbox (probably some dependencies, but locally you would see them as in the screenshots)
+http://jsfiddle.net/silviu4ever/7Lykn7ch/5/
 
 ## How to Use:
 1. Load the directive in your module

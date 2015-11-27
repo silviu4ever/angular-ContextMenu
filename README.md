@@ -1,6 +1,9 @@
 # angular-ContextMenu
 A Context Menu directive for angular based apps which can also contain subMenu items, Images, checkboxes, etc
 
+![](menu1.png)
+![](menu2.png)
+
 ## Why a new Context Menu for angular?
 
 I've searched a lot for a more 'complete' Context Menu directive and I didn't find any for free.

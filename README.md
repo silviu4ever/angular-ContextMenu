@@ -1,7 +1,7 @@
 # angular-ContextMenu
 A Context Menu directive for angular based apps which can also contain subMenu items, Images, checkboxes, etc
 
-Why a new Context Menu for angular?
+## Why a new Context Menu for angular?
 
 I've searched a lot for a more 'complete' Context Menu directive and I didn't find any for free.
 By 'complete' I mean I want a context menu directive that could do the following:
@@ -12,13 +12,16 @@ By 'complete' I mean I want a context menu directive that could do the following
 - Context menu should be rendered above the mouse if right clicking items from bottom of the page
 
 
-How to Use:
+## How to Use:
 1. Load the directive in your module
-2.define the contextmenu in your template
+2. Define the contextmenu in your template
+```html
 <div style="height: 100%;" dr-context-menu="menuOptions"></div>
+```
 
 3. define the menuOptions in your controller. I will attach a screenshot so you could see how the context Menu will look.
-         $scope.menuOptions = [
+```
+    $scope.menuOptions = [
                 {
                     name: "View", src: "assets/img/report.png", hasCheckbox: false, disabled: false,
                     onClick: function ($itemScope) {
@@ -61,3 +64,4 @@ How to Use:
                     }
                 }
         ]
+```

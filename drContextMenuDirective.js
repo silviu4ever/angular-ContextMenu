@@ -19,7 +19,7 @@
                 $a = $('<a>');
                 $a.text(item.name);
                 if (item.hasCheckbox) {
-                    $check = $('<input />', { type: 'checkbox', id: item.name, value: item.name, checked: isCheckBoxChecked });
+                    $check = $('<input />', { type: 'checkbox', id: item.name, value: item.name, checked: item.isCheckBoxChecked });
                     $li.append($check);
                 }
                 if (item.src) {

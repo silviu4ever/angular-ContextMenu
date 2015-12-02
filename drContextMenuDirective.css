@@ -54,6 +54,9 @@
 .dropdown-submenu.pull-left {
     float: none;
 }
+.dropdown-submenu > .dropdown-menu {
+    top: 6px;
+}
 
     .dropdown-submenu.pull-left > .dropdown-menu {
         left: -100%;
